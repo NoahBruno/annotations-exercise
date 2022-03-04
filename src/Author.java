@@ -17,7 +17,7 @@ public class Author extends Person {
      */
     @Deprecated
     public List<String> getBooks() {
-        return books;
+        return publishedBooks();
     }
 
     public List<String> publishedBooks() {
